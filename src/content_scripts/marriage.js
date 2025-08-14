@@ -1,43 +1,37 @@
 const info = {
   maleInfo: {
-    name: { value: '刘XX', editor: '#xmnan', },
-    id: { value: '610102XXXXXXXXXXXX', editor: '#sfzjhmnan', },
-    degree: { value: '大学', editor: '#whcdnan', },
-    job: { value: '专业技术人员', editor: '#zynan', },
-    phone: { value: '155XXXXXXXX', editor: '#lxdhnan', },
+    name: { value: '苑家诚', editor: '#xmnan', },
+    id: { value: '130726199411170031', editor: '#sfzjhmnan', },
+    degree: { value: '硕士研究生', editor: '#whcdnan', },
+    job: { value: '其他从业人员', editor: '#zynan', },
+    phone: { value: '13231326923', editor: '#lxdhnan', },
   },
 
   femaleInfo: {
-    name: { value: '卢XX', editor: '#xmnv', },
-    id: { value: '42XXXXXXXXXXXXXXXX', editor: '#sfzjhmnv', },
+    name: { value: '王津粤', editor: '#xmnv', },
+    id: { value: '440304199508011128', editor: '#sfzjhmnv', },
     degree: { value: '硕士研究生', editor: '#whcdnv', },
     job: { value: '其他从业人员', editor: '#zynv', },
-    phone: { value: '158XXXXXXXX', editor: '#lxdhnv', },
+    phone: { value: '15627862570', editor: '#lxdhnv', },
   },
 
   address: {
-    date: '2025-08-22', // 默认办理日期
-    city: '440100000000', // 默认办理城市：广州市
+    date: '2025-08-30', // 办理日期
+    city: '440300000000', // 办理城市：深圳市
     // 意向办理网点列表，若优先级高的网点没有可预约时间，则依次尝试优先级低的网点
     officeList: [
-      '4401040A0000', // 广州市越秀区民政局婚姻登记处
-      '4401050A0000', // 广州市海珠区民政局婚姻登记处
-      '4401060A0000', // 广州市天河区民政局婚姻登记处
+      '4403050A1000', // 深圳市南山区民政局婚姻登记处
+      '4403040A1000', // 深圳市福田区民政局婚姻登记处
     ],
     // 意向办理时间列表，若优先级高的时段没有可预约时间，则依次尝试优先级低的时段
     timeList: [
-      '15:30-16:30',
-      '14:30-15:30',
-      '14:00-14:30',
-      '13:30-14:00',
-      '13:00-13:30',
       '11:00-11:30',
       '10:00-11:00',
       '9:00-10:00',
     ],
   },
 
-  notifyValue: '01', // 短信通知选择 01: 男 02: 女
+  notifyValue: '02', // 短信通知选择 01: 男 02: 女
 }
 
 // https://www.gdhy.gov.cn/yyjh.do?do=preYyxxOper&yyrq=2022-05-19&djjg=4403040A1000&yysj=16:30-17:00&ydbllx=01
